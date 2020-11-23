@@ -741,12 +741,13 @@
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
+                <main role="main" class="content">
+                    <div class="container-fluid">
+                        @RenderBody()
+                    </div>
+                </main>
             </div>
-            <main role="main" class="content">
-                <div class="container-fluid">
-                    @RenderBody()
-                </div>
-            </main>
+
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
